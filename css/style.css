@@ -65,7 +65,7 @@ header #branding h1{
 header nav{
     float: right;
     position: relative;
-    bottom: 30px;   
+    bottom: 3em;   
 }
 
 header .highlight, header .current a{
