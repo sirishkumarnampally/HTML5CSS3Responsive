@@ -13,7 +13,7 @@ ul{
     padding: 0;
 }
 
-.button_1{
+.button1{
     height: 38px;
     background: #e8491d;
     border: 0;
@@ -55,16 +55,17 @@ header li{
 }
 
 header #branding{
-    float: left;
+    float: left; 
 }
 
-header #branding li{
+header #branding h1{
     margin: 0;
 }
 
 header nav{
     float: right;
-    margin-top: 20px;
+    position: relative;
+    bottom: 30px;   
 }
 
 header .highlight, header .current a{
@@ -136,3 +137,10 @@ header a:hover{
     width: 90px;
 }
 
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
